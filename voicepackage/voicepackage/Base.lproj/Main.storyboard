@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="voicepackage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rSw-1h-jBg">
+                                <rect key="frame" x="0.0" y="156" width="414" height="465"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="Wy7-sf-P46">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="872"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="yGg-Ma-eiq">
+                                                <rect key="frame" x="25" y="0.0" width="100" height="104"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fxz-2Q-hPR">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="104"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="國棟"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="國棟" subtitle="" titleAlignment="automatic">
+                                                    <fontDescription key="titleFontDescription" name=".PingFangTC-Regular" family=".PingFang TC" pointSize="65"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="kcd-Qm-G1Z" kind="show" identifier="seguewanye" id="DxT-af-wyk"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKx-Iz-1qd">
+                                                <rect key="frame" x="0.0" y="112" width="414" height="104"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name=".PingFangTC-Regular" family=".PingFang TC" pointSize="33"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="國棟"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="統神" subtitle="" titleAlignment="automatic">
+                                                    <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="65"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="kuX-x4-kFF" kind="show" identifier="seguegodtoneasia" id="hh2-3t-pra"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="554904-XXL.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lBv-CF-FDP">
+                                                <rect key="frame" x="25" y="224" width="100" height="104"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbn-AM-bWs">
+                                                <rect key="frame" x="0.0" y="224" width="414" height="104"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="國棟"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="環境" subtitle="" titleAlignment="automatic">
+                                                    <fontDescription key="titleFontDescription" name=".PingFangTC-Regular" family=".PingFang TC" pointSize="65"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="MZn-LN-8N5" kind="show" identifier="segueBackground" id="nQj-bH-fxg"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="l3B-VQ-4cd">
+                                                <rect key="frame" x="25" y="112" width="100" height="104"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                            </imageView>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="whu-7N-s94"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="hRX-Sb-qVh"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="hjN-8P-LIP"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="600"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="LayerBD" destination="yGg-Ma-eiq" id="CDa-VL-GvW"/>
+                        <outlet property="LayerBackground" destination="lBv-CF-FDP" id="jmt-Dc-VVf"/>
+                        <outlet property="LayerTG" destination="l3B-VQ-4cd" id="kT0-32-jz6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="52.901785714285715"/>
+        </scene>
+        <!--Godtoneasia-->
+        <scene sceneID="q7i-h1-jjc">
+            <objects>
+                <viewController id="kuX-x4-kFF" customClass="godtoneasia" customModule="voicepackage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WpN-Id-5Ro">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XzV-li-VaO">
+                                <rect key="frame" x="283" y="20" width="111" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="3pG-sL-I2u" kind="unwind" unwindAction="unwind2For:" id="N9H-Ht-vbW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="統神" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXb-UC-Hwf">
+                                <rect key="frame" x="0.0" y="647" width="414" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <color key="textColor" systemColor="separatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5LC-YG-Wo5">
+                                <rect key="frame" x="0.0" y="59" width="414" height="580"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="wva-MH-NQN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1181"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AE3-Tj-6fp">
+                                                <rect key="frame" x="294" y="9" width="112" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                    <attributedString key="attributedTitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="share1:" destination="kuX-x4-kFF" eventType="touchUpInside" id="q6B-y7-KDH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bd-yw-96c">
+                                                <rect key="frame" x="9" y="8" width="278" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="一定要惹別人火是不是阿">
+                                                    <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                    <attributedString key="attributedSubtitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="Niyidin:" destination="kuX-x4-kFF" eventType="touchUpInside" id="T35-JK-tZt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbY-b4-VpA">
+                                                <rect key="frame" x="293" y="51" width="112" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                    <attributedString key="attributedTitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="share2:" destination="kuX-x4-kFF" eventType="touchUpInside" id="HNL-nD-iKW"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNK-Oi-9ac">
+                                                <rect key="frame" x="8" y="50" width="278" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="你不要再滾了過來">
+                                                    <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                    <attributedString key="attributedSubtitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="Nibuyao:" destination="kuX-x4-kFF" eventType="touchUpInside" id="SNx-U5-rSg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lqr-BV-wfL">
+                                                <rect key="frame" x="293" y="91" width="112" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                    <attributedString key="attributedTitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="share3:" destination="kuX-x4-kFF" eventType="touchUpInside" id="6NF-Az-gFD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXc-Ar-dAV">
+                                                <rect key="frame" x="8" y="90" width="278" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="好啦">
+                                                    <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                    <attributedString key="attributedSubtitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="Haola:" destination="kuX-x4-kFF" eventType="touchUpInside" id="hq4-QM-ZMB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EL0-Mg-DPZ">
+                                                <rect key="frame" x="293" y="131" width="112" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                    <attributedString key="attributedTitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="share4:" destination="kuX-x4-kFF" eventType="touchUpInside" id="BS4-a6-c1M"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cM-Z5-yue">
+                                                <rect key="frame" x="8" y="130" width="278" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="我現在在你的家門外">
+                                                    <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                    <attributedString key="attributedSubtitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="Wosandi:" destination="kuX-x4-kFF" eventType="touchUpInside" id="Fth-wJ-dFw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rho-MU-9qX">
+                                                <rect key="frame" x="294" y="171" width="112" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                    <attributedString key="attributedTitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="share5:" destination="kuX-x4-kFF" eventType="touchUpInside" id="Ldw-cD-E2T"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7BJ-k7-c7w">
+                                                <rect key="frame" x="9" y="170" width="278" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="聽不懂中文是不是阿你">
+                                                    <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                    <attributedString key="attributedSubtitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="tinbudon:" destination="kuX-x4-kFF" eventType="touchUpInside" id="5ZA-1j-59C"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPr-7b-lm5">
+                                                <rect key="frame" x="293" y="211" width="112" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                    <attributedString key="attributedTitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="share6:" destination="kuX-x4-kFF" eventType="touchUpInside" id="w6w-qF-UAz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVL-aE-HO6">
+                                                <rect key="frame" x="8" y="210" width="278" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="靠邀">
+                                                    <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                    <attributedString key="attributedSubtitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="Coeyao:" destination="kuX-x4-kFF" eventType="touchUpInside" id="ggt-e1-v3U"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5MI-j1-e7E">
+                                                <rect key="frame" x="293" y="251" width="112" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                    <attributedString key="attributedTitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="share7:" destination="kuX-x4-kFF" eventType="touchUpInside" id="6xW-VQ-6Or"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylH-g1-LOT">
+                                                <rect key="frame" x="8" y="250" width="278" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="來拉切戳拉">
+                                                    <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                    <attributedString key="attributedSubtitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="LineLa:" destination="kuX-x4-kFF" eventType="touchUpInside" id="efd-gh-KdL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPb-A5-0rQ">
+                                                <rect key="frame" x="293" y="291" width="112" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                    <attributedString key="attributedTitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="share8:" destination="kuX-x4-kFF" eventType="touchUpInside" id="LqR-hz-n9J"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EvT-XP-i5N">
+                                                <rect key="frame" x="8" y="290" width="278" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="幹你到底到底balabala">
+                                                    <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                    <attributedString key="attributedSubtitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="Gannidowdi:" destination="kuX-x4-kFF" eventType="touchUpInside" id="9QF-Lt-oTb"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="S4q-M6-bKD"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="N0W-iL-PJa"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="8EF-RP-PrF"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="600"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nv7-FW-m2A"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gka-Ya-xjI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wiA-dR-FAc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="3pG-sL-I2u" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1616" y="53"/>
+        </scene>
+        <!--Background Sound-->
+        <scene sceneID="7l9-o5-5xY">
+            <objects>
+                <viewController id="MZn-LN-8N5" customClass="BackgroundSound" customModule="voicepackage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qhL-70-N6v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIY-R7-ZJN">
+                                <rect key="frame" x="20" y="20" width="44" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="airplayaudio" catalog="system" title=""/>
+                                <connections>
+                                    <action selector="AirplayButton:" destination="MZn-LN-8N5" eventType="touchUpInside" id="U1l-JF-keu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4e-XH-243">
+                                <rect key="frame" x="303" y="20" width="111" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="S21-mb-GKW" kind="unwind" unwindAction="unwind3For:" id="JEC-9k-mYO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="R0S-db-kqZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rok-hL-QHR"/>
+                    <connections>
+                        <outlet property="airplayButton" destination="vIY-R7-ZJN" id="Z3i-kH-XNI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xrj-t9-bAY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="S21-mb-GKW" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="869.56521739130437" y="431.91964285714283"/>
+        </scene>
+        <!--Wanye-->
+        <scene sceneID="i5G-R1-1aG">
+            <objects>
+                <viewController id="kcd-Qm-G1Z" customClass="wanye" customModule="voicepackage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MZk-Ou-eqR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tmz-xo-uXL">
+                                <rect key="frame" x="303" y="20" width="111" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="IBD-Do-cOe" kind="unwind" unwindAction="unwindFor:" id="5la-de-mvw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="國棟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1B-Ek-0tY">
+                                <rect key="frame" x="0.0" y="647" width="414" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <color key="textColor" systemColor="separatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JHS-5B-UrS">
+                                <rect key="frame" x="0.0" y="59" width="414" height="580"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="VJg-qC-vf2">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="872"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ywi-1s-Fne">
+                                                <rect key="frame" x="0.0" y="446" width="414" height="241"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <viewLayoutGuide key="contentLayoutGuide" id="K8B-DD-b0A"/>
+                                                <viewLayoutGuide key="frameLayoutGuide" id="ckf-BO-mu2"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                                        <size key="value" width="0.0" height="600"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </scrollView>
+                                            <view contentMode="scaleToFill" id="W19-PM-bcJ">
+                                                <rect key="frame" x="0.0" y="-8" width="414" height="965"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BE3-rM-cOM">
+                                                        <rect key="frame" x="302" y="29" width="112" height="31"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                            <attributedString key="attributedTitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="share1:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="6Yg-WM-jeQ"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8A-E8-4xh">
+                                                        <rect key="frame" x="16" y="29" width="278" height="31"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="拉進垃圾車">
+                                                            <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                            <attributedString key="attributedSubtitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="no_problem:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="8yG-B6-weK"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rfb-5h-j6O">
+                                                        <rect key="frame" x="302" y="68" width="112" height="31"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                            <attributedString key="attributedTitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="share2:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="Zbp-A5-yOg"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6g-b1-ceF">
+                                                        <rect key="frame" x="16" y="67" width="278" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="滑起來">
+                                                            <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                            <attributedString key="attributedSubtitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="HauChili:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="BKA-VA-UU3"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sF4-ES-1YB">
+                                                        <rect key="frame" x="302" y="107" width="112" height="31"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                            <attributedString key="attributedTitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="share3:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="oeM-pc-XbA"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZf-vy-XfC">
+                                                        <rect key="frame" x="16" y="106" width="278" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="還敢下來啊冰鳥">
+                                                            <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                            <attributedString key="attributedSubtitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="Higan:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="pwy-2e-H3R"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4h-bi-6WL">
+                                                        <rect key="frame" x="302" y="146" width="112" height="31"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                            <attributedString key="attributedTitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="share4:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="Hri-Ts-Pmp"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJ2-77-qmZ">
+                                                        <rect key="frame" x="16" y="145" width="278" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="乞丐大劍">
+                                                            <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                            <attributedString key="attributedSubtitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="Gidajan:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="DL4-uO-TE3"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkR-MH-0jr">
+                                                        <rect key="frame" x="302" y="186" width="112" height="31"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                            <attributedString key="attributedTitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="share5:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="4qK-Ol-CVa"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHi-so-6aW">
+                                                        <rect key="frame" x="16" y="185" width="278" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="到底什麼閃線">
+                                                            <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                            <attributedString key="attributedSubtitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="dodi:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="cLI-jl-FBt"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ieb-k8-53x">
+                                                        <rect key="frame" x="302" y="226" width="112" height="31"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                            <attributedString key="attributedTitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="share6:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="Sps-Ic-ddJ"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yF3-ZV-HWo">
+                                                        <rect key="frame" x="16" y="225" width="278" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="啦啦啦">
+                                                            <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                            <attributedString key="attributedSubtitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="Lalala:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="oo5-gT-lGA"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4d-NJ-q28">
+                                                        <rect key="frame" x="302" y="266" width="112" height="31"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                            <attributedString key="attributedTitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="share7:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="Fof-9d-dFh"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZbE-uP-JEE">
+                                                        <rect key="frame" x="16" y="265" width="278" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="你到底在幹嘛啊">
+                                                            <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                            <attributedString key="attributedSubtitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="Nidodi:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="RQu-zy-zcW"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3Z-dz-npY">
+                                                        <rect key="frame" x="302" y="308" width="112" height="31"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                            <attributedString key="attributedTitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="share8:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="TpH-ce-n4W"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8m-ZM-dWa">
+                                                        <rect key="frame" x="16" y="307" width="278" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="瑞斯一打三">
+                                                            <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                            <attributedString key="attributedSubtitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="Raysi:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="vdf-YD-QbJ"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5n-96-AQd">
+                                                        <rect key="frame" x="302" y="348" width="112" height="31"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                            <attributedString key="attributedTitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="share9:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="RXY-19-aA5"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWD-ik-BOs">
+                                                        <rect key="frame" x="16" y="347" width="278" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="給庫">
+                                                            <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                            <attributedString key="attributedSubtitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="gaycu:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="B3i-Gl-eez"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be1-1N-td5">
+                                                        <rect key="frame" x="302" y="388" width="112" height="31"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up" catalog="system">
+                                                            <attributedString key="attributedTitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="share10:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="IX0-j2-AlY"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlk-Lk-O9L">
+                                                        <rect key="frame" x="16" y="387" width="278" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="大合輯">
+                                                            <fontDescription key="titleFontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
+                                                            <attributedString key="attributedSubtitle"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="dahogi:" destination="kcd-Qm-G1Z" eventType="touchUpInside" id="8a1-4b-PFq"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <viewLayoutGuide key="safeArea" id="pim-KA-i0s"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="5vv-4h-PZs"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="OZC-si-Gpt"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Olu-kH-WCU"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="600"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Dlr-ro-2fA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wdo-rT-Pga"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nzM-1K-Afn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="IBD-Do-cOe" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="871.01449275362324" y="-374.33035714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="554904-XXL.jpg" width="382.5" height="215.25"/>
+        <image name="Unknown.jpeg" width="220" height="229"/>
+        <image name="airplayaudio" catalog="system" width="128" height="121"/>
+        <image name="asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg" width="300" height="300"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

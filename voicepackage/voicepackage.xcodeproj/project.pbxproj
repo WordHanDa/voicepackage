@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5200F38A275C3E2A00871BBC /* 滑起來.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F389275C3E2A00871BBC /* 滑起來.mp3 */; };
+		5200F38C275C3E3C00871BBC /* 還敢下來啊冰鳥.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F38B275C3E3C00871BBC /* 還敢下來啊冰鳥.mp3 */; };
+		5200F38D275C3E3C00871BBC /* 還敢下來啊冰鳥.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F38B275C3E3C00871BBC /* 還敢下來啊冰鳥.mp3 */; };
+		5200F38E275C3E3C00871BBC /* 還敢下來啊冰鳥.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F38B275C3E3C00871BBC /* 還敢下來啊冰鳥.mp3 */; };
+		5200F390275C3E4800871BBC /* 為什麼不方我發大絕.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F38F275C3E4800871BBC /* 為什麼不方我發大絕.mp3 */; };
+		5200F391275C3E4800871BBC /* 為什麼不方我發大絕.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F38F275C3E4800871BBC /* 為什麼不方我發大絕.mp3 */; };
+		5200F392275C3E4800871BBC /* 為什麼不方我發大絕.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F38F275C3E4800871BBC /* 為什麼不方我發大絕.mp3 */; };
+		5200F394275C8EB000871BBC /* 丐大劍.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F393275C8EB000871BBC /* 丐大劍.mp3 */; };
+		5200F395275C8EB000871BBC /* 丐大劍.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F393275C8EB000871BBC /* 丐大劍.mp3 */; };
+		5200F396275C8EB000871BBC /* 丐大劍.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F393275C8EB000871BBC /* 丐大劍.mp3 */; };
+		5200F39C275CA90900871BBC /* asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5200F39B275CA90900871BBC /* asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg */; };
+		5200F39D275CA90900871BBC /* asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5200F39B275CA90900871BBC /* asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg */; };
+		5200F39E275CA90900871BBC /* asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5200F39B275CA90900871BBC /* asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg */; };
+		5200F3A0275CA98F00871BBC /* godtoneasia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200F39F275CA98F00871BBC /* godtoneasia.swift */; };
+		5200F3A1275CA98F00871BBC /* godtoneasia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200F39F275CA98F00871BBC /* godtoneasia.swift */; };
+		5200F3A2275CA98F00871BBC /* godtoneasia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200F39F275CA98F00871BBC /* godtoneasia.swift */; };
+		5200F3A4275CABC900871BBC /* 一定要惹別人火是不是阿.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F3A3275CABC900871BBC /* 一定要惹別人火是不是阿.mp3 */; };
+		5200F3A5275CABC900871BBC /* 一定要惹別人火是不是阿.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F3A3275CABC900871BBC /* 一定要惹別人火是不是阿.mp3 */; };
+		5200F3A6275CABC900871BBC /* 一定要惹別人火是不是阿.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F3A3275CABC900871BBC /* 一定要惹別人火是不是阿.mp3 */; };
+		5200F3A8275CAC7300871BBC /* 你不要再滾了過來x2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F3A7275CAC7300871BBC /* 你不要再滾了過來x2.mp3 */; };
+		5200F3A9275CAC7300871BBC /* 你不要再滾了過來x2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F3A7275CAC7300871BBC /* 你不要再滾了過來x2.mp3 */; };
+		5200F3AA275CAC7300871BBC /* 你不要再滾了過來x2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F3A7275CAC7300871BBC /* 你不要再滾了過來x2.mp3 */; };
+		5200F3AC275CACBB00871BBC /* 好啦x3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F3AB275CACBB00871BBC /* 好啦x3.mp3 */; };
+		5200F3AD275CACBB00871BBC /* 好啦x3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F3AB275CACBB00871BBC /* 好啦x3.mp3 */; };
+		5200F3AE275CACBB00871BBC /* 好啦x3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F3AB275CACBB00871BBC /* 好啦x3.mp3 */; };
+		5200F3B0275CACDA00871BBC /* 我現在在你的家門外.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F3AF275CACDA00871BBC /* 我現在在你的家門外.mp3 */; };
+		5200F3B1275CACDA00871BBC /* 我現在在你的家門外.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F3AF275CACDA00871BBC /* 我現在在你的家門外.mp3 */; };
+		5200F3B2275CACDA00871BBC /* 我現在在你的家門外.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5200F3AF275CACDA00871BBC /* 我現在在你的家門外.mp3 */; };
+		52028E32275E2A880023497C /* 到底什麼閃現.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E31275E2A880023497C /* 到底什麼閃現.mp3 */; };
+		52028E33275E2A880023497C /* 到底什麼閃現.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E31275E2A880023497C /* 到底什麼閃現.mp3 */; };
+		52028E34275E2A880023497C /* 到底什麼閃現.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E31275E2A880023497C /* 到底什麼閃現.mp3 */; };
+		52028E36275E2CA10023497C /* 啦啦啦.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E35275E2CA10023497C /* 啦啦啦.mp3 */; };
+		52028E37275E2CA10023497C /* 啦啦啦.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E35275E2CA10023497C /* 啦啦啦.mp3 */; };
+		52028E38275E2CA10023497C /* 啦啦啦.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E35275E2CA10023497C /* 啦啦啦.mp3 */; };
+		52028E3A275E2ED60023497C /* 你在幹嘛啊.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E39275E2ED60023497C /* 你在幹嘛啊.mp3 */; };
+		52028E3B275E2ED60023497C /* 你在幹嘛啊.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E39275E2ED60023497C /* 你在幹嘛啊.mp3 */; };
+		52028E3C275E2ED60023497C /* 你在幹嘛啊.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E39275E2ED60023497C /* 你在幹嘛啊.mp3 */; };
+		52028E3E275E2EDD0023497C /* 瑞斯一打三.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E3D275E2EDC0023497C /* 瑞斯一打三.mp3 */; };
+		52028E3F275E2EDD0023497C /* 瑞斯一打三.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E3D275E2EDC0023497C /* 瑞斯一打三.mp3 */; };
+		52028E40275E2EDD0023497C /* 瑞斯一打三.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E3D275E2EDC0023497C /* 瑞斯一打三.mp3 */; };
+		52028E42275E2EE10023497C /* 大合輯.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E41275E2EE10023497C /* 大合輯.mp3 */; };
+		52028E43275E2EE10023497C /* 大合輯.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E41275E2EE10023497C /* 大合輯.mp3 */; };
+		52028E44275E2EE10023497C /* 大合輯.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E41275E2EE10023497C /* 大合輯.mp3 */; };
+		52028E46275E2FE00023497C /* 給庫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E45275E2FE00023497C /* 給庫.mp3 */; };
+		52028E47275E2FE00023497C /* 給庫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E45275E2FE00023497C /* 給庫.mp3 */; };
+		52028E48275E2FE00023497C /* 給庫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E45275E2FE00023497C /* 給庫.mp3 */; };
+		52028E4A275E33440023497C /* 聽不懂中文是不是阿你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E49275E33440023497C /* 聽不懂中文是不是阿你.mp3 */; };
+		52028E4B275E33440023497C /* 聽不懂中文是不是阿你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E49275E33440023497C /* 聽不懂中文是不是阿你.mp3 */; };
+		52028E4C275E33440023497C /* 聽不懂中文是不是阿你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E49275E33440023497C /* 聽不懂中文是不是阿你.mp3 */; };
+		52028E4E275E33980023497C /* 靠邀.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E4D275E33980023497C /* 靠邀.mp3 */; };
+		52028E4F275E33980023497C /* 靠邀.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E4D275E33980023497C /* 靠邀.mp3 */; };
+		52028E50275E33980023497C /* 靠邀.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E4D275E33980023497C /* 靠邀.mp3 */; };
+		52028E52275E33C90023497C /* 來拉切戳拉.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E51275E33C90023497C /* 來拉切戳拉.mp3 */; };
+		52028E53275E33C90023497C /* 來拉切戳拉.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E51275E33C90023497C /* 來拉切戳拉.mp3 */; };
+		52028E54275E33C90023497C /* 來拉切戳拉.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E51275E33C90023497C /* 來拉切戳拉.mp3 */; };
+		52028E56275E34210023497C /* 幹你到底到底balabala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E55275E34210023497C /* 幹你到底到底balabala.mp3 */; };
+		52028E57275E34210023497C /* 幹你到底到底balabala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E55275E34210023497C /* 幹你到底到底balabala.mp3 */; };
+		52028E58275E34210023497C /* 幹你到底到底balabala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52028E55275E34210023497C /* 幹你到底到底balabala.mp3 */; };
+		52767C23275B50860007DCDF /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52767C22275B50860007DCDF /* Unknown.jpeg */; };
+		52767C25275B51720007DCDF /* wanye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52767C24275B51720007DCDF /* wanye.swift */; };
+		52767C39275BCAC00007DCDF /* wanye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52767C24275B51720007DCDF /* wanye.swift */; };
+		52767C3A275BCAC10007DCDF /* wanye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52767C24275B51720007DCDF /* wanye.swift */; };
+		52767C42275BD89E0007DCDF /* 拉進垃圾車.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52767C41275BD89E0007DCDF /* 拉進垃圾車.mp3 */; };
+		52767C43275BD89E0007DCDF /* 拉進垃圾車.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52767C41275BD89E0007DCDF /* 拉進垃圾車.mp3 */; };
+		52767C44275BD89E0007DCDF /* 拉進垃圾車.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52767C41275BD89E0007DCDF /* 拉進垃圾車.mp3 */; };
+		528B09C9275A648D00BBFE35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528B09C8275A648D00BBFE35 /* AppDelegate.swift */; };
+		528B09CB275A648D00BBFE35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528B09CA275A648D00BBFE35 /* SceneDelegate.swift */; };
+		528B09CD275A648D00BBFE35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528B09CC275A648D00BBFE35 /* ViewController.swift */; };
+		528B09D0275A648D00BBFE35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528B09CE275A648D00BBFE35 /* Main.storyboard */; };
+		528B09D2275A648E00BBFE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528B09D1275A648E00BBFE35 /* Assets.xcassets */; };
+		528B09D5275A648E00BBFE35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528B09D3275A648E00BBFE35 /* LaunchScreen.storyboard */; };
+		528B09E0275A648E00BBFE35 /* voicepackageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528B09DF275A648E00BBFE35 /* voicepackageTests.swift */; };
+		528B09EA275A648E00BBFE35 /* voicepackageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528B09E9275A648E00BBFE35 /* voicepackageUITests.swift */; };
+		528B09EC275A648E00BBFE35 /* voicepackageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528B09EB275A648E00BBFE35 /* voicepackageUITestsLaunchTests.swift */; };
+		529BB25E2763A21E004ECD60 /* BackgroundSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529BB25D2763A21E004ECD60 /* BackgroundSound.swift */; };
+		52EC1BBC2764944B000CB910 /* 554904-XXL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52EC1BBB2764944B000CB910 /* 554904-XXL.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		528B09DC275A648E00BBFE35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528B09BD275A648D00BBFE35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528B09C4275A648D00BBFE35;
+			remoteInfo = voicepackage;
+		};
+		528B09E6275A648E00BBFE35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528B09BD275A648D00BBFE35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528B09C4275A648D00BBFE35;
+			remoteInfo = voicepackage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5200F389275C3E2A00871BBC /* 滑起來.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "滑起來.mp3"; sourceTree = "<group>"; };
+		5200F38B275C3E3C00871BBC /* 還敢下來啊冰鳥.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "還敢下來啊冰鳥.mp3"; sourceTree = "<group>"; };
+		5200F38F275C3E4800871BBC /* 為什麼不方我發大絕.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "為什麼不方我發大絕.mp3"; sourceTree = "<group>"; };
+		5200F393275C8EB000871BBC /* 丐大劍.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "丐大劍.mp3"; sourceTree = "<group>"; };
+		5200F39B275CA90900871BBC /* asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg"; sourceTree = "<group>"; };
+		5200F39F275CA98F00871BBC /* godtoneasia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = godtoneasia.swift; sourceTree = "<group>"; };
+		5200F3A3275CABC900871BBC /* 一定要惹別人火是不是阿.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "一定要惹別人火是不是阿.mp3"; sourceTree = "<group>"; };
+		5200F3A7275CAC7300871BBC /* 你不要再滾了過來x2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "你不要再滾了過來x2.mp3"; sourceTree = "<group>"; };
+		5200F3AB275CACBB00871BBC /* 好啦x3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "好啦x3.mp3"; sourceTree = "<group>"; };
+		5200F3AF275CACDA00871BBC /* 我現在在你的家門外.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我現在在你的家門外.mp3"; sourceTree = "<group>"; };
+		52028E31275E2A880023497C /* 到底什麼閃現.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "到底什麼閃現.mp3"; sourceTree = "<group>"; };
+		52028E35275E2CA10023497C /* 啦啦啦.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "啦啦啦.mp3"; sourceTree = "<group>"; };
+		52028E39275E2ED60023497C /* 你在幹嘛啊.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "你在幹嘛啊.mp3"; sourceTree = "<group>"; };
+		52028E3D275E2EDC0023497C /* 瑞斯一打三.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "瑞斯一打三.mp3"; sourceTree = "<group>"; };
+		52028E41275E2EE10023497C /* 大合輯.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "大合輯.mp3"; sourceTree = "<group>"; };
+		52028E45275E2FE00023497C /* 給庫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "給庫.mp3"; sourceTree = "<group>"; };
+		52028E49275E33440023497C /* 聽不懂中文是不是阿你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "聽不懂中文是不是阿你.mp3"; sourceTree = "<group>"; };
+		52028E4D275E33980023497C /* 靠邀.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "靠邀.mp3"; sourceTree = "<group>"; };
+		52028E51275E33C90023497C /* 來拉切戳拉.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "來拉切戳拉.mp3"; sourceTree = "<group>"; };
+		52028E55275E34210023497C /* 幹你到底到底balabala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "幹你到底到底balabala.mp3"; sourceTree = "<group>"; };
+		52767C22275B50860007DCDF /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
+		52767C24275B51720007DCDF /* wanye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wanye.swift; sourceTree = "<group>"; };
+		52767C41275BD89E0007DCDF /* 拉進垃圾車.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "拉進垃圾車.mp3"; sourceTree = "<group>"; };
+		528B09C5275A648D00BBFE35 /* voicepackage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voicepackage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528B09C8275A648D00BBFE35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		528B09CA275A648D00BBFE35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		528B09CC275A648D00BBFE35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		528B09CF275A648D00BBFE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		528B09D1275A648E00BBFE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		528B09D4275A648E00BBFE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		528B09D6275A648E00BBFE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528B09DB275A648E00BBFE35 /* voicepackageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voicepackageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528B09DF275A648E00BBFE35 /* voicepackageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voicepackageTests.swift; sourceTree = "<group>"; };
+		528B09E5275A648E00BBFE35 /* voicepackageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voicepackageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528B09E9275A648E00BBFE35 /* voicepackageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voicepackageUITests.swift; sourceTree = "<group>"; };
+		528B09EB275A648E00BBFE35 /* voicepackageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voicepackageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		529BB25D2763A21E004ECD60 /* BackgroundSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSound.swift; sourceTree = "<group>"; };
+		52EC1BBB2764944B000CB910 /* 554904-XXL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "554904-XXL.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528B09C2275A648D00BBFE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528B09D8275A648E00BBFE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528B09E2275A648E00BBFE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528B09BC275A648D00BBFE35 = {
+			isa = PBXGroup;
+			children = (
+				529BB25D2763A21E004ECD60 /* BackgroundSound.swift */,
+				528B09C7275A648D00BBFE35 /* voicepackage */,
+				528B09DE275A648E00BBFE35 /* voicepackageTests */,
+				528B09E8275A648E00BBFE35 /* voicepackageUITests */,
+				528B09C6275A648D00BBFE35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528B09C6275A648D00BBFE35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528B09C5275A648D00BBFE35 /* voicepackage.app */,
+				528B09DB275A648E00BBFE35 /* voicepackageTests.xctest */,
+				528B09E5275A648E00BBFE35 /* voicepackageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528B09C7275A648D00BBFE35 /* voicepackage */ = {
+			isa = PBXGroup;
+			children = (
+				52767C41275BD89E0007DCDF /* 拉進垃圾車.mp3 */,
+				5200F389275C3E2A00871BBC /* 滑起來.mp3 */,
+				5200F38B275C3E3C00871BBC /* 還敢下來啊冰鳥.mp3 */,
+				5200F38F275C3E4800871BBC /* 為什麼不方我發大絕.mp3 */,
+				5200F393275C8EB000871BBC /* 丐大劍.mp3 */,
+				5200F3A3275CABC900871BBC /* 一定要惹別人火是不是阿.mp3 */,
+				5200F3A7275CAC7300871BBC /* 你不要再滾了過來x2.mp3 */,
+				5200F3AB275CACBB00871BBC /* 好啦x3.mp3 */,
+				52028E51275E33C90023497C /* 來拉切戳拉.mp3 */,
+				52028E55275E34210023497C /* 幹你到底到底balabala.mp3 */,
+				52028E4D275E33980023497C /* 靠邀.mp3 */,
+				52028E49275E33440023497C /* 聽不懂中文是不是阿你.mp3 */,
+				5200F3AF275CACDA00871BBC /* 我現在在你的家門外.mp3 */,
+				52028E31275E2A880023497C /* 到底什麼閃現.mp3 */,
+				52028E35275E2CA10023497C /* 啦啦啦.mp3 */,
+				52028E39275E2ED60023497C /* 你在幹嘛啊.mp3 */,
+				52028E3D275E2EDC0023497C /* 瑞斯一打三.mp3 */,
+				52028E45275E2FE00023497C /* 給庫.mp3 */,
+				52028E41275E2EE10023497C /* 大合輯.mp3 */,
+				528B09C8275A648D00BBFE35 /* AppDelegate.swift */,
+				528B09CA275A648D00BBFE35 /* SceneDelegate.swift */,
+				528B09CC275A648D00BBFE35 /* ViewController.swift */,
+				528B09CE275A648D00BBFE35 /* Main.storyboard */,
+				5200F39F275CA98F00871BBC /* godtoneasia.swift */,
+				52767C24275B51720007DCDF /* wanye.swift */,
+				52EC1BBB2764944B000CB910 /* 554904-XXL.jpg */,
+				5200F39B275CA90900871BBC /* asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg */,
+				52767C22275B50860007DCDF /* Unknown.jpeg */,
+				528B09D1275A648E00BBFE35 /* Assets.xcassets */,
+				528B09D3275A648E00BBFE35 /* LaunchScreen.storyboard */,
+				528B09D6275A648E00BBFE35 /* Info.plist */,
+			);
+			path = voicepackage;
+			sourceTree = "<group>";
+		};
+		528B09DE275A648E00BBFE35 /* voicepackageTests */ = {
+			isa = PBXGroup;
+			children = (
+				528B09DF275A648E00BBFE35 /* voicepackageTests.swift */,
+			);
+			path = voicepackageTests;
+			sourceTree = "<group>";
+		};
+		528B09E8275A648E00BBFE35 /* voicepackageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				528B09E9275A648E00BBFE35 /* voicepackageUITests.swift */,
+				528B09EB275A648E00BBFE35 /* voicepackageUITestsLaunchTests.swift */,
+			);
+			path = voicepackageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528B09C4275A648D00BBFE35 /* voicepackage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528B09EF275A648E00BBFE35 /* Build configuration list for PBXNativeTarget "voicepackage" */;
+			buildPhases = (
+				528B09C1275A648D00BBFE35 /* Sources */,
+				528B09C2275A648D00BBFE35 /* Frameworks */,
+				528B09C3275A648D00BBFE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voicepackage;
+			productName = voicepackage;
+			productReference = 528B09C5275A648D00BBFE35 /* voicepackage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		528B09DA275A648E00BBFE35 /* voicepackageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528B09F2275A648E00BBFE35 /* Build configuration list for PBXNativeTarget "voicepackageTests" */;
+			buildPhases = (
+				528B09D7275A648E00BBFE35 /* Sources */,
+				528B09D8275A648E00BBFE35 /* Frameworks */,
+				528B09D9275A648E00BBFE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528B09DD275A648E00BBFE35 /* PBXTargetDependency */,
+			);
+			name = voicepackageTests;
+			productName = voicepackageTests;
+			productReference = 528B09DB275A648E00BBFE35 /* voicepackageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		528B09E4275A648E00BBFE35 /* voicepackageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528B09F5275A648E00BBFE35 /* Build configuration list for PBXNativeTarget "voicepackageUITests" */;
+			buildPhases = (
+				528B09E1275A648E00BBFE35 /* Sources */,
+				528B09E2275A648E00BBFE35 /* Frameworks */,
+				528B09E3275A648E00BBFE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528B09E7275A648E00BBFE35 /* PBXTargetDependency */,
+			);
+			name = voicepackageUITests;
+			productName = voicepackageUITests;
+			productReference = 528B09E5275A648E00BBFE35 /* voicepackageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528B09BD275A648D00BBFE35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					528B09C4275A648D00BBFE35 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					528B09DA275A648E00BBFE35 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 528B09C4275A648D00BBFE35;
+					};
+					528B09E4275A648E00BBFE35 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 528B09C4275A648D00BBFE35;
+					};
+				};
+			};
+			buildConfigurationList = 528B09C0275A648D00BBFE35 /* Build configuration list for PBXProject "voicepackage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 528B09BC275A648D00BBFE35;
+			productRefGroup = 528B09C6275A648D00BBFE35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528B09C4275A648D00BBFE35 /* voicepackage */,
+				528B09DA275A648E00BBFE35 /* voicepackageTests */,
+				528B09E4275A648E00BBFE35 /* voicepackageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528B09C3275A648D00BBFE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EC1BBC2764944B000CB910 /* 554904-XXL.jpg in Resources */,
+				52028E52275E33C90023497C /* 來拉切戳拉.mp3 in Resources */,
+				5200F3AC275CACBB00871BBC /* 好啦x3.mp3 in Resources */,
+				52028E56275E34210023497C /* 幹你到底到底balabala.mp3 in Resources */,
+				5200F39C275CA90900871BBC /* asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg in Resources */,
+				5200F394275C8EB000871BBC /* 丐大劍.mp3 in Resources */,
+				5200F390275C3E4800871BBC /* 為什麼不方我發大絕.mp3 in Resources */,
+				52028E4A275E33440023497C /* 聽不懂中文是不是阿你.mp3 in Resources */,
+				52028E3E275E2EDD0023497C /* 瑞斯一打三.mp3 in Resources */,
+				52028E46275E2FE00023497C /* 給庫.mp3 in Resources */,
+				52028E3A275E2ED60023497C /* 你在幹嘛啊.mp3 in Resources */,
+				52767C23275B50860007DCDF /* Unknown.jpeg in Resources */,
+				5200F3A8275CAC7300871BBC /* 你不要再滾了過來x2.mp3 in Resources */,
+				528B09D5275A648E00BBFE35 /* LaunchScreen.storyboard in Resources */,
+				52028E4E275E33980023497C /* 靠邀.mp3 in Resources */,
+				52028E36275E2CA10023497C /* 啦啦啦.mp3 in Resources */,
+				52028E32275E2A880023497C /* 到底什麼閃現.mp3 in Resources */,
+				52767C42275BD89E0007DCDF /* 拉進垃圾車.mp3 in Resources */,
+				5200F3A4275CABC900871BBC /* 一定要惹別人火是不是阿.mp3 in Resources */,
+				5200F38A275C3E2A00871BBC /* 滑起來.mp3 in Resources */,
+				528B09D2275A648E00BBFE35 /* Assets.xcassets in Resources */,
+				528B09D0275A648D00BBFE35 /* Main.storyboard in Resources */,
+				5200F38C275C3E3C00871BBC /* 還敢下來啊冰鳥.mp3 in Resources */,
+				52028E42275E2EE10023497C /* 大合輯.mp3 in Resources */,
+				5200F3B0275CACDA00871BBC /* 我現在在你的家門外.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528B09D9275A648E00BBFE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52028E53275E33C90023497C /* 來拉切戳拉.mp3 in Resources */,
+				52028E4F275E33980023497C /* 靠邀.mp3 in Resources */,
+				52028E47275E2FE00023497C /* 給庫.mp3 in Resources */,
+				52028E37275E2CA10023497C /* 啦啦啦.mp3 in Resources */,
+				52028E3B275E2ED60023497C /* 你在幹嘛啊.mp3 in Resources */,
+				5200F39D275CA90900871BBC /* asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg in Resources */,
+				52028E43275E2EE10023497C /* 大合輯.mp3 in Resources */,
+				5200F3A9275CAC7300871BBC /* 你不要再滾了過來x2.mp3 in Resources */,
+				52028E3F275E2EDD0023497C /* 瑞斯一打三.mp3 in Resources */,
+				52028E33275E2A880023497C /* 到底什麼閃現.mp3 in Resources */,
+				52767C43275BD89E0007DCDF /* 拉進垃圾車.mp3 in Resources */,
+				5200F3B1275CACDA00871BBC /* 我現在在你的家門外.mp3 in Resources */,
+				5200F3AD275CACBB00871BBC /* 好啦x3.mp3 in Resources */,
+				5200F395275C8EB000871BBC /* 丐大劍.mp3 in Resources */,
+				52028E57275E34210023497C /* 幹你到底到底balabala.mp3 in Resources */,
+				5200F38D275C3E3C00871BBC /* 還敢下來啊冰鳥.mp3 in Resources */,
+				52028E4B275E33440023497C /* 聽不懂中文是不是阿你.mp3 in Resources */,
+				5200F3A5275CABC900871BBC /* 一定要惹別人火是不是阿.mp3 in Resources */,
+				5200F391275C3E4800871BBC /* 為什麼不方我發大絕.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528B09E3275A648E00BBFE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52028E54275E33C90023497C /* 來拉切戳拉.mp3 in Resources */,
+				52028E50275E33980023497C /* 靠邀.mp3 in Resources */,
+				52028E48275E2FE00023497C /* 給庫.mp3 in Resources */,
+				52028E38275E2CA10023497C /* 啦啦啦.mp3 in Resources */,
+				52028E3C275E2ED60023497C /* 你在幹嘛啊.mp3 in Resources */,
+				5200F39E275CA90900871BBC /* asiagodtonegg3be0-profile_image-081feb3428b1a1c6-300x300.jpeg in Resources */,
+				52028E44275E2EE10023497C /* 大合輯.mp3 in Resources */,
+				5200F3AA275CAC7300871BBC /* 你不要再滾了過來x2.mp3 in Resources */,
+				52028E40275E2EDD0023497C /* 瑞斯一打三.mp3 in Resources */,
+				52028E34275E2A880023497C /* 到底什麼閃現.mp3 in Resources */,
+				52767C44275BD89E0007DCDF /* 拉進垃圾車.mp3 in Resources */,
+				5200F3B2275CACDA00871BBC /* 我現在在你的家門外.mp3 in Resources */,
+				5200F3AE275CACBB00871BBC /* 好啦x3.mp3 in Resources */,
+				5200F396275C8EB000871BBC /* 丐大劍.mp3 in Resources */,
+				52028E58275E34210023497C /* 幹你到底到底balabala.mp3 in Resources */,
+				5200F38E275C3E3C00871BBC /* 還敢下來啊冰鳥.mp3 in Resources */,
+				52028E4C275E33440023497C /* 聽不懂中文是不是阿你.mp3 in Resources */,
+				5200F3A6275CABC900871BBC /* 一定要惹別人火是不是阿.mp3 in Resources */,
+				5200F392275C3E4800871BBC /* 為什麼不方我發大絕.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528B09C1275A648D00BBFE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528B09CD275A648D00BBFE35 /* ViewController.swift in Sources */,
+				5200F3A0275CA98F00871BBC /* godtoneasia.swift in Sources */,
+				528B09C9275A648D00BBFE35 /* AppDelegate.swift in Sources */,
+				529BB25E2763A21E004ECD60 /* BackgroundSound.swift in Sources */,
+				52767C25275B51720007DCDF /* wanye.swift in Sources */,
+				528B09CB275A648D00BBFE35 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528B09D7275A648E00BBFE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52767C39275BCAC00007DCDF /* wanye.swift in Sources */,
+				528B09E0275A648E00BBFE35 /* voicepackageTests.swift in Sources */,
+				5200F3A1275CA98F00871BBC /* godtoneasia.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528B09E1275A648E00BBFE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52767C3A275BCAC10007DCDF /* wanye.swift in Sources */,
+				528B09EC275A648E00BBFE35 /* voicepackageUITestsLaunchTests.swift in Sources */,
+				5200F3A2275CA98F00871BBC /* godtoneasia.swift in Sources */,
+				528B09EA275A648E00BBFE35 /* voicepackageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528B09DD275A648E00BBFE35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528B09C4275A648D00BBFE35 /* voicepackage */;
+			targetProxy = 528B09DC275A648E00BBFE35 /* PBXContainerItemProxy */;
+		};
+		528B09E7275A648E00BBFE35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528B09C4275A648D00BBFE35 /* voicepackage */;
+			targetProxy = 528B09E6275A648E00BBFE35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		528B09CE275A648D00BBFE35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528B09CF275A648D00BBFE35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		528B09D3275A648E00BBFE35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528B09D4275A648E00BBFE35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		528B09ED275A648E00BBFE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		528B09EE275A648E00BBFE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528B09F0275A648E00BBFE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHS532M824;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = voicepackage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = p.voicepackage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		528B09F1275A648E00BBFE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHS532M824;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = voicepackage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = p.voicepackage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		528B09F3275A648E00BBFE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHS532M824;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x.voicepackageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voicepackage.app/voicepackage";
+			};
+			name = Debug;
+		};
+		528B09F4275A648E00BBFE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHS532M824;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x.voicepackageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voicepackage.app/voicepackage";
+			};
+			name = Release;
+		};
+		528B09F6275A648E00BBFE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHS532M824;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x.voicepackageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = voicepackage;
+			};
+			name = Debug;
+		};
+		528B09F7275A648E00BBFE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHS532M824;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x.voicepackageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = voicepackage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528B09C0275A648D00BBFE35 /* Build configuration list for PBXProject "voicepackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528B09ED275A648E00BBFE35 /* Debug */,
+				528B09EE275A648E00BBFE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528B09EF275A648E00BBFE35 /* Build configuration list for PBXNativeTarget "voicepackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528B09F0275A648E00BBFE35 /* Debug */,
+				528B09F1275A648E00BBFE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528B09F2275A648E00BBFE35 /* Build configuration list for PBXNativeTarget "voicepackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528B09F3275A648E00BBFE35 /* Debug */,
+				528B09F4275A648E00BBFE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528B09F5275A648E00BBFE35 /* Build configuration list for PBXNativeTarget "voicepackageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528B09F6275A648E00BBFE35 /* Debug */,
+				528B09F7275A648E00BBFE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528B09BD275A648D00BBFE35 /* Project object */;
+}
