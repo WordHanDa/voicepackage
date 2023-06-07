@@ -25,30 +25,30 @@ class wanye: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    @IBAction func HauChili(_ sender: Any) {
+    @IBAction func HauChili(_ sender: UIButton) {
         audio(fp: afilePath[0])
     }
     
-    @IBAction func share2(_ sender: Any) {
+    @IBAction func share2(_ sender: UIButton) {
         sharefunc(fp: afilePath[0])
     }
     @IBAction func no_problem(_ sender: UIButton) {
         audio(fp: afilePath[1])
     }
 
-    @IBAction func share1(_ sender: Any) {
+    @IBAction func share1(_ sender: UIButton) {
         sharefunc(fp: afilePath[1])
     }
     
-    @IBAction func Higan(_ sender: Any) {
+    @IBAction func Higan(_ sender: UIButton) {
         audio(fp: afilePath[2])
     }
     
-    @IBAction func share3(_ sender: Any) {
+    @IBAction func share3(_ sender: UIButton) {
         sharefunc(fp: afilePath[2])
     }
     
-    @IBAction func Gidajan(_ sender: Any) {
+    @IBAction func Gidajan(_ sender: UIButton) {
         audio(fp: afilePath[3])
     }
     
