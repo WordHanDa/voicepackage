@@ -12,7 +12,6 @@ class godtoneasia: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     var audio: AVAudioPlayer?
     let filePath = ["一定要惹別人火是不是阿", "你不要再滾了過來x2", "好啦x3","我現在在你的家門外","聽不懂中文是不是阿你","靠邀","來拉切戳拉","幹你到底到底balabala"]
