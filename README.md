@@ -1,2 +1,2 @@
 # voicepackage
-* farmware: UIkit
+* framware: UIkit
